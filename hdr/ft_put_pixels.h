@@ -6,7 +6,7 @@
 /*   By: ll-hotel <ll-hotel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/29 16:03:42 by ll-hotel          #+#    #+#             */
-/*   Updated: 2023/11/29 18:22:18 by ll-hotel         ###   ########.fr       */
+/*   Updated: 2023/12/04 20:46:56 by ll-hotel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,5 @@
 int		rgb(unsigned char red, unsigned char green, unsigned char blue);
 void	ft_img_draw_line(void *img, t_point a, t_point b, int color);
 void	ft_img_pixel_put(void *img, int x, int y, int color);
-void	ft_img_draw_quadri(void *img, t_point abcd[4], int color);
 
 #endif
